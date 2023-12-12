@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Silkscreen&family=Young+Serif&display=swap');
+*
+{
+    font-family: 'Silkscreen', sans-serif;
+    box-sizing: border-box;
+    
+}
+body 
+{
+    margin: 0;
+   
+}
+.calcBody
+{
+    margin: 80px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,4rem);
+    grid-template-rows: minmax(8rem , auto) repeat(5,4rem);
+}
+.resultScreen
+{
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 8px;
+    border: 2px rgba(22, 65, 21, 0.89) solid;
+    background-color:rgba(34, 110, 33, 0.89) ;
+    color: rgb(5, 59, 7);
+}
+.currentValue
+{
+    text-align: right;
+    font-size: 22px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.prevValue
+{
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.spanTwo
+{
+    grid-column: span 2;
+}
+button 
+{
+    color: black;
+    background-color: rgba(172, 201, 172 , 0.5);
+    cursor: pointer;
+    border: 2px rgb(71, 71, 71) solid;
+}
+button:hover , button:active 
+{
+    background-color:rgb(172, 201, 172) ;
+   
+}
