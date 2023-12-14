@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/http//yamen-alnamly.github.io/reactCalculator/static/css/main.094b9b98.css",
+    "main.js": "/http//yamen-alnamly.github.io/reactCalculator/static/js/main.61f592f4.js",
+    "static/js/787.efc3d892.chunk.js": "/http//yamen-alnamly.github.io/reactCalculator/static/js/787.efc3d892.chunk.js",
+    "index.html": "/http//yamen-alnamly.github.io/reactCalculator/index.html",
+    "main.094b9b98.css.map": "/http//yamen-alnamly.github.io/reactCalculator/static/css/main.094b9b98.css.map",
+    "main.61f592f4.js.map": "/http//yamen-alnamly.github.io/reactCalculator/static/js/main.61f592f4.js.map",
+    "787.efc3d892.chunk.js.map": "/http//yamen-alnamly.github.io/reactCalculator/static/js/787.efc3d892.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.094b9b98.css",
+    "static/js/main.61f592f4.js"
+  ]
+}
